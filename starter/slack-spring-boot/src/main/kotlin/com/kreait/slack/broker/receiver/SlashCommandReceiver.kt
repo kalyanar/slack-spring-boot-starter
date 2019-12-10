@@ -26,7 +26,7 @@ interface SlashCommandReceiver {
 
     /**
      * Method that determines if an exception in this receiver should be thrown
-     * This will cause that the [InteractiveComponentBroker] will not execute any other receiver after an error
+     * This will cause that the [com.kreait.slack.broker.broker.CommandBroker] will not execute any other receiver after an error
      *
      * @param exception the exception that occurred
      */
